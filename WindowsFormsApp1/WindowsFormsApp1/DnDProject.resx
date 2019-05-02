@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DragonBornTraitsLabel.Text" xml:space="preserve">
+    <value>Dragonborn   Traits
+
+Str +2,   Cha +1            Age:   adult   by   15,   lifespan   3-80
+
+Size:   6+ft,   250lbs,   Medium       Speed:   30ft
+
+Ancestry:   Draconic 
+Your   breath   weapon   and   damage   resistance   are
+determined   by   the   dragon   type.</value>
+  </data>
+  <data name="DwarfTraitsLabel.Text" xml:space="preserve">
+    <value>Dwarf   Traits
+
+Str +2,   Con +2                               Age:   adult   by   50,   lifespan   0-350
+
+Size:   4-5ft,   150lbs,   Medium      Speed:   25ft
+
+Dwarven Resilience
+You   have   advantage   on   saving   throws   against   poison,
+and   you   have   resistance   against   poison   damage.</value>
+  </data>
+  <data name="ElfTraitsLabel.Text" xml:space="preserve">
+    <value>Elf   Traits
+
+Dex +2,   Int +1             Age:   adult   by   100,   lifespan   0-750
+
+Size:   5-6ft,   150lbs,   Medium      Speed:   30ft
+
+Fey Ancestry
+You   have   advantage   on   saving   throws   against   being
+charmed,   and   magic   can’t   put   you   to   sleep.</value>
+  </data>
+  <data name="HalfElfTraitsLabel.Text" xml:space="preserve">
+    <value>Half - Elf   Traits
+
+Cha +2,   2 +1 choice      Age:   adult   by   20,   lifespan   0-180
+
+Size:   5-6ft,   150lbs,   Medium      Speed:   30ft
+
+Fey Ancestry
+You   have   advantage   on   saving   throws   against   being
+charmed,   and   magic   can’t   put   you   to   sleep.</value>
+  </data>
+  <data name="HalfOrcTraitsLabel.Text" xml:space="preserve">
+    <value>Half - Orc   Traits
+
+Str +2,   Con +1      Age:   adult   by   14   lifespan   0-75
+
+Size:   5-6ft,   200lbs,   Medium      Speed:   30ft
+
+Relentless Endurance
+When   you   are   reduced   to   0 HP   you   can   drop
+to   1 HP   instead,   once   per   long   rest.</value>
+  </data>
+  <data name="HalflingTraitsLabel.Text" xml:space="preserve">
+    <value>Halfling   Traits
+
+Dex +2      Age:   adult   by   20   lifespan   0-250
+
+Size:   3ft,   40lbs,   Small      Speed:   25ft
+
+Lucky
+When   you   roll   a   1   on   a   d20   for
+attack   rolls,   ability   checks,   or   saving
+throws,   you   can   reroll   the   die   and
+must   use   the   new   roll.</value>
+  </data>
+  <data name="HumanTraitsLabel.Text" xml:space="preserve">
+    <value>Human   Traits
+
+All +1      Age:   adult   by   20   lifespan   0-75
+
+Size:   5-6ft,   150lbs,   Medium      Speed:   30ft
+
+House   choice
+In   choosing   a   house,   you   gain   certain
+features   depending   on   your   ethnicity.</value>
+  </data>
+  <data name="GnomeTraitsLabel.Text" xml:space="preserve">
+    <value>Gnome   Traits
+
+INT +2      Age:   adult   by   40   lifespan   0-500
+
+Size:   3-4ft,   40lbs,   Small      Speed:   25ft
+
+Gnome Cunning
+You   have   advantage   on   all   Intelligence,
+Wisdom,   and   Charisma   saving   throws
+against   magic.</value>
+  </data>
+  <data name="TieflingTraitsLabel.Text" xml:space="preserve">
+    <value>Tiefling   Traits
+
+int +1,   cha +2      Age:   adult   by   20   lifespan   0-100
+
+Size:   5-6ft,   180lbs,   Medium      Speed:   30ft
+
+Hellish   Resistance
+You   have   resistance   to   fire   damage.</value>
+  </data>
+  <data name="AarakocraTraitsLabel.Text" xml:space="preserve">
+    <value>aarakocra   Traits
+
+dex +2,   wis +1            Age:   adult   by   3,   lifespan   0-30
+
+Size:   5ft,   80-100lbs,   Medium       Speed:   25ft
+
+Flight
+You   have   a   flying   speed   of   50   feet.   To 
+use   this   speed,   you   can’t   be   wearing
+medium   or   heavy   armor.
+
+Talons
+You   are   proficient   with   your   unarmed
+strikes,   which   deal   1d4   slashing   damage
+on   a   hit.</value>
+  </data>
+  <data name="BarbarianLabel.Text" xml:space="preserve">
+    <value>Barbarians   are   defined   by   their   rage:
+unbridled,   unquenchable,   and   unthinking
+fury.   More   than   a   mere   emotion,   their
+anger   is   the   ferocity   of   a   cornered
+predator,   the   unrelenting   assault   of   a
+storm,   the   churning   turmoil   of   the   sea.</value>
+  </data>
+  <data name="WizardLabel.Text" xml:space="preserve">
+    <value>Wizards   are   supreme   magic-users,
+defined   and   united   as   a   class   by
+the   spells   they   cast.   Drawing   on
+the   subtle   weave   of   magic   that
+permeates   the   cosmos,   wizards   cast
+spells   of   explosive   fire,   arcing
+lightning,   subtle   deception,   and
+brute-force   mind   control.</value>
+  </data>
+  <data name="WarlockLabel.Text" xml:space="preserve">
+    <value>Warlocks   are   seekers   of   the   knowledge
+that   lies   hidden   in   the   fabric   of   the
+multiverse.   Through   pacts   made   with
+mysterious   beings   of   supernatural
+power,   warlocks   unlock   magical   effects
+both   subtle   and   spectacular.</value>
+  </data>
+  <data name="RogueLabel.Text" xml:space="preserve">
+    <value>Rogues   rely   on   skill,   stealth,   and
+their   foes’   vulnerabilities   to   get   the
+upper   hand   in   any   situation.   They
+have   a   knack   for   finding   the
+solution   to   just   about   any   problem,
+demonstrating   a   resourcefulness   and
+versatility   that   is   the   cornerstone   of
+any   successful   adventure</value>
+  </data>
+  <data name="PaladinLabel.Text" xml:space="preserve">
+    <value>Whatever   their   origin   and   their   mission,
+paladins   are   united   by   their   oaths   to
+stand   against   the   forces   of   evil.   It   is
+a   source   of   power   that   turns   a
+devout   warrior   into   a   blessed   champion.</value>
+  </data>
+  <data name="FighterLabel.Text" xml:space="preserve">
+    <value>Questing   knights,   conquering   overlords,
+royal   champions,   elite   foot   soldiers,
+hardened   mercenaries,   and   bandit   kings
+—as   fighters,   they   all   share   an
+unparalleled   mastery   with   weapons   and
+armor,   and   a   thorough   knowledge   of
+the   skills   of   combat.</value>
+  </data>
+  <data name="DruidLabel.Text" xml:space="preserve">
+    <value>druids   are   an   embodiment   of   nature’s
+resilience,   cunning,   and   fury.   They
+claim   no   mastery   over   nature.   Instead,
+they   see   themselves   as   extensions   of
+nature’s   indomitable   will.</value>
+  </data>
+  <data name="ClericLabel.Text" xml:space="preserve">
+    <value>Clerics   are   intermediaries   between   the
+mortal  world   and   the   distant   planes   of
+the   gods.   As varied   as   the   gods   they
+serve,   clerics   strive   to   embody   the
+handiwork   of   their   deities.   No   ordinary
+priest,   a   cleric   is   imbued   with   divine
+magic.</value>
+  </data>
+  <data name="BardLabel.Text" xml:space="preserve">
+    <value>Whether   scholar,   skald,   or   scoundrel,
+a   bard   weaves   magic   through   words
+and   music   to   inspire   allies,   demoralize
+foes,   manipulate   minds,   create   illusions,
+and   even   heal   wounds.</value>
+  </data>
+</root>
